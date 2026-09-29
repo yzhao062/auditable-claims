@@ -1,0 +1,2 @@
+{"corr": "tx-19", "agent": "doc-agent/2.4.1", "subject": "user:alvarez", "tool": "send_email", "args": {"to": "counsel@example.org", "attachment_sha256": "9f2c...e1"}, "authz": {"grant": "g-5531", "issuer": "as.example-firm.com"}, "t": "2026-03-04T10:02:14Z"}
+{"corr": "tx-23", "agent": "doc-agent/2.4.1", "subject": "user:alvarez", "tool": "send_email", "args": {"to": "press@example.net", "attachment_sha256": "41ab...07"}, "ui_confirmation": {"by": "user:alvarez", "t": "2026-03-06T15:40:02Z"}, "t": "2026-03-06T15:40:05Z"}
