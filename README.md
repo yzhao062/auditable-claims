@@ -1,6 +1,6 @@
 # Auditable Claims about AI Agents
 
-Companion materials for the chapter "Auditable Claims about AI Agents" by Yue Zhao, Jiate Li, Li Li, Yi Nian, and Xiyang Hu, submitted to the Springer volume *Trustworthy AI Agents: Toward Safe, Secure and Sovereign Agents* (editor Mark Maybury).
+Companion materials for the chapter "Auditable Claims about AI Agents" by Yue Zhao, Jiate Li, Li Li, Jinbo Liu, Yi Nian, Xiaolin Zhou, and Xiyang Hu, submitted to the Springer volume *Trustworthy AI Agents: Toward Safe, Secure and Sovereign Agents* (editor Mark Maybury).
 
 The chapter asks when a claim about a deployed AI agent can be checked from records. A claim is auditable when its policy, scope, obtainable records with their writers, and decision rule are specified before any verdict; the check then returns supported, contradicted, or undecidable.
 
@@ -9,8 +9,9 @@ The chapter asks when a claim about a deployed AI agent can be checked from reco
 | Path | What it holds |
 |---|---|
 | `worksheet/claim-check.md` | The definition, the three conditions agents add, and the six-claim table, as a worksheet for a new claim |
+| `worksheet/example-march-claim.md` | The worksheet filled for the March claim of the worked case, with each field tagged by the Auditability Card question that supplies it |
 | `case/records.jsonl` | The two illustrative agent log records from the worked case (constructed for teaching; no agent was run) |
-| `reproduce/catchbench-pre/` | Pinned environment, script, and expected output for the chapter's practice box |
+| `reproduce/catchbench-pre/` | Pinned environment, script, and expected output for the evaluation score in the chapter's practice box |
 
 ## Reproduce the Practice Box
 
@@ -25,7 +26,7 @@ The script installs the pinned packages, runs `catchbench --task pre`, and compa
 
 ## Citation
 
-The chapter is under review. Until it is published, please cite this repository and the CatchBench preprint (arXiv:2608.22808). The chapter's practice box uses tag `v1.0` of this repository.
+The chapter is under review. Until it is published, please cite this repository and the CatchBench preprint (arXiv:2608.22808). The chapter's practice box clones tag `v1.0` of this repository; the reproduction files are unchanged since then.
 
 ## License
 
