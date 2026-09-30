@@ -1,6 +1,6 @@
 # Auditable Claims about AI Agents
 
-Companion materials for the chapter "Auditable Claims about AI Agents" by Yue Zhao, Jiate Li, Li Li, Jinbo Liu, Yi Nian, Xiaolin Zhou, and Xiyang Hu, submitted to the Springer volume *Trustworthy AI Agents: Toward Safe, Secure and Sovereign Agents* (editor Mark Maybury).
+Companion materials for the chapter "Auditable Claims about AI Agents" by Yue Zhao, Jiate Li, Li Li, Yi Nian, Jinbo Liu, Xiaolin Zhou, and Xiyang Hu, submitted to the Springer volume *Trustworthy AI Agents: Toward Safe, Secure and Sovereign Agents* (editor Mark Maybury).
 
 The chapter asks when a claim about a deployed AI agent can be checked from records. A claim is auditable when its policy, scope, obtainable records with their writers, and decision rule are specified before any verdict; the check then returns supported, contradicted, or undecidable.
 
